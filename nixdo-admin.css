@@ -1,0 +1,52 @@
+#wp-nixdo-content {
+	padding: 20px;
+}
+
+#wp-nixdo-content input {
+	font-size: 14px;
+}
+
+#wp-nixdo-content input[type="text"] {
+	width: 320px;
+	padding: 8px;
+	padding-top: 7px;
+}
+
+#wp-nixdo-content input[type="submit"]:hover, #wp-nixdo-content input[type="submit"]:active {
+	opacity: 0.8;
+	background-color: #6EA9DC;
+	border-color: #6194BF;
+}
+
+#wp-nixdo-content input[type="submit"] {
+	box-shadow: #6EA9DC 0px 1px 1px 0px inset;
+	background-color: #6EA9DC;
+	border: 1px solid #6194BF;
+	border-radius: 3px;
+	box-shadow: #6EA9DC 0px 1px 1px inset;
+	color: #FFF;
+	font-family: inherit;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 20px;
+	margin-left: 15px;
+	outline: none;
+	padding: 6px 12px;
+	text-transform: uppercase;
+}
+
+#wp-nixdo-content .shortcode {
+	margin-right: 5px;
+	font-family: Courier;
+}
+
+#wp-nixdo-content ul {
+	margin-left: 20px;
+}
+
+#wp-nixdo-content .alert {
+	display: block;
+	font-family: inherit;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
